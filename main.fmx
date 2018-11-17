@@ -1,0 +1,111 @@
+object fmMain: TfmMain
+  Left = 0
+  Top = 0
+  Caption = #26657#21208#29986#29983#22120
+  ClientHeight = 412
+  ClientWidth = 864
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object sgApp: TStringGrid
+    Align = Client
+    CanFocus = True
+    ClipChildren = True
+    Margins.Left = 9.000000000000000000
+    Margins.Top = 9.000000000000000000
+    Margins.Right = 9.000000000000000000
+    Margins.Bottom = 9.000000000000000000
+    Size.Width = 846.000000000000000000
+    Size.Height = 292.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    RowHeight = 30.000000000000000000
+    RowCount = 10
+    Options = [Editing, ColumnResize, ColLines, RowLines, AlwaysShowSelection, Tabs, Header, HeaderClick, AutoDisplacement]
+    Viewport.Width = 826.000000000000000000
+    Viewport.Height = 267.000000000000000000
+    object StringColumn1: TStringColumn
+      Header = #25552#20986#26085#26399
+    end
+    object StringColumn2: TStringColumn
+      Header = #25552#20986#32773
+    end
+    object StringColumn3: TStringColumn
+      Header = #20462#35330#21069
+    end
+    object StringColumn4: TStringColumn
+      Header = #20462#35330#24460
+    end
+    object StringColumn5: TStringColumn
+      Header = ' '#20462#35330#20381#25818
+    end
+    object StringColumn6: TStringColumn
+      Header = #20462#35330#30906#35469#32773
+    end
+    object StringColumn7: TStringColumn
+      Header = #20462#35330#22519#34892#32773
+    end
+    object StringColumn8: TStringColumn
+      Header = #20462#35330#23436#25104#26085#26399
+    end
+  end
+  object Panel1: TPanel
+    Align = Bottom
+    Position.Y = 310.000000000000000000
+    Size.Width = 864.000000000000000000
+    Size.Height = 102.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object edApp: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Bottom
+      TabOrder = 0
+      Position.X = 9.000000000000000000
+      Position.Y = 60.000000000000000000
+      Margins.Left = 9.000000000000000000
+      Margins.Right = 9.000000000000000000
+      Margins.Bottom = 9.000000000000000000
+      Size.Width = 846.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object btCreate: TButton
+      Align = Center
+      Size.Width = 89.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = #29986#29983#26657#21208
+      OnClick = btCreateClick
+    end
+    object btCopy: TButton
+      Align = Right
+      Margins.Top = 9.000000000000000000
+      Margins.Right = 9.000000000000000000
+      Margins.Bottom = 9.000000000000000000
+      Position.X = 778.000000000000000000
+      Position.Y = 9.000000000000000000
+      Size.Width = 77.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = #35079#35069
+      OnClick = btCopyClick
+    end
+    object btPaste: TButton
+      Align = Left
+      Margins.Left = 9.000000000000000000
+      Margins.Top = 9.000000000000000000
+      Margins.Bottom = 9.000000000000000000
+      Position.X = 9.000000000000000000
+      Position.Y = 9.000000000000000000
+      Size.Width = 73.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = #36028#19978
+      OnClick = btPasteClick
+    end
+  end
+end
