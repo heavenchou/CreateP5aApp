@@ -2,8 +2,8 @@ object fmMain: TfmMain
   Left = 0
   Top = 0
   Caption = #26657#21208#29986#29983#22120
-  ClientHeight = 412
-  ClientWidth = 864
+  ClientHeight = 447
+  ClientWidth = 865
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
@@ -16,15 +16,15 @@ object fmMain: TfmMain
     Margins.Top = 9.000000000000000000
     Margins.Right = 9.000000000000000000
     Margins.Bottom = 9.000000000000000000
-    Size.Width = 846.000000000000000000
-    Size.Height = 292.000000000000000000
+    Size.Width = 847.000000000000000000
+    Size.Height = 327.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 1
     RowHeight = 30.000000000000000000
     RowCount = 10
     Options = [Editing, ColumnResize, ColLines, RowLines, AlwaysShowSelection, Tabs, Header, HeaderClick, AutoDisplacement]
-    Viewport.Width = 826.000000000000000000
-    Viewport.Height = 267.000000000000000000
+    Viewport.Width = 827.000000000000000000
+    Viewport.Height = 302.000000000000000000
     object StringColumn1: TStringColumn
       Header = #25552#20986#26085#26399
     end
@@ -52,8 +52,8 @@ object fmMain: TfmMain
   end
   object Panel1: TPanel
     Align = Bottom
-    Position.Y = 310.000000000000000000
-    Size.Width = 864.000000000000000000
+    Position.Y = 345.000000000000000000
+    Size.Width = 865.000000000000000000
     Size.Height = 102.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 2
@@ -66,14 +66,20 @@ object fmMain: TfmMain
       Margins.Left = 9.000000000000000000
       Margins.Right = 9.000000000000000000
       Margins.Bottom = 9.000000000000000000
-      Size.Width = 846.000000000000000000
+      Size.Width = 847.000000000000000000
       Size.Height = 33.000000000000000000
       Size.PlatformDefault = False
     end
     object btCreate: TButton
-      Align = Center
-      Size.Width = 89.000000000000000000
-      Size.Height = 44.000000000000000000
+      Align = Right
+      Margins.Left = 9.000000000000000000
+      Margins.Top = 9.000000000000000000
+      Margins.Right = 9.000000000000000000
+      Margins.Bottom = 9.000000000000000000
+      Position.X = 688.000000000000000000
+      Position.Y = 9.000000000000000000
+      Size.Width = 82.000000000000000000
+      Size.Height = 42.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 3
       Text = #29986#29983#26657#21208
@@ -84,7 +90,7 @@ object fmMain: TfmMain
       Margins.Top = 9.000000000000000000
       Margins.Right = 9.000000000000000000
       Margins.Bottom = 9.000000000000000000
-      Position.X = 778.000000000000000000
+      Position.X = 779.000000000000000000
       Position.Y = 9.000000000000000000
       Size.Width = 77.000000000000000000
       Size.Height = 42.000000000000000000
@@ -100,12 +106,48 @@ object fmMain: TfmMain
       Margins.Bottom = 9.000000000000000000
       Position.X = 9.000000000000000000
       Position.Y = 9.000000000000000000
-      Size.Width = 73.000000000000000000
+      Size.Width = 64.000000000000000000
       Size.Height = 42.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 1
       Text = #36028#19978
       OnClick = btPasteClick
+    end
+    object Label1: TLabel
+      Position.X = 88.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 41.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      Text = #32232#34399
+      TabOrder = 5
+    end
+    object edID: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 7
+      Position.X = 120.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object edRefVer: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 6
+      Position.X = 336.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 169.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label2: TLabel
+      Position.X = 280.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 57.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      Text = #21443#32771#29256#26412
+      TabOrder = 4
     end
   end
 end
