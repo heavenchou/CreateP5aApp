@@ -51,7 +51,7 @@ void __fastcall TfmMain::btCreateClick(TObject *Sender)
 	/*
 	<note n="0003a1101" resp="CBETA" type="add">¥§¡iCB¡j¡iÄR-CB¡j¡A¤r¡i¤j¡j</note>
 	<app n="0003a1101">
-		<lem wit="¡iCB¡j¡iÄR-CB¡j" resp="CBETA.maha" cb:provider="¬Y¥Ò(2018-10-01)">¥§
+		<lem wit="¡iCB¡j¡iÄR-CB¡j" resp="CBETA.maha" cb:provider="¬Y¥Ò (2018-10-01)">¥§
 		<note type="cf1">K17n0647_p0839b07</note>
 		<note type="cf2">T01n0001_p0026c15</note>
 		</lem>
@@ -66,7 +66,7 @@ void __fastcall TfmMain::btCreateClick(TObject *Sender)
 	else
 	{
 		sProvider = " cb:provider=\"" + sProvider;
-        if(sDate != "")	sProvider += "(" + sDate + ")";
+		if(sDate != "")	sProvider += " (" + sDate + ")";
 		sProvider += u"\"";
 	}
 
